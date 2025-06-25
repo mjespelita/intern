@@ -1,0 +1,31 @@
+Row Width
+
+12
+
+col-lg col-md col-sm
+
+------------------------------------
+
+Spacing
+From 1 - 5
+
+pt - padding-top
+pr - padding-right
+pb - padding-bottom
+pl - padding-left
+
+mt - margin-top
+mr - margin-right
+mb - margin-bottom
+ml - margin-left
+
+------------------------------------
+
+Bootstrap Default Colors
+
+success - green
+danger - red
+warning - yellow
+info - light blue
+primary - blue
+secondary - gray
