@@ -1,5 +1,5 @@
-1. Bootstrap Grid Systems
-2. Bootstrap Components
-3. Bootstrap Forms
+1. Bootstrap Grid Systems - OK
+2. Bootstrap Components - OK
+3. Bootstrap Forms - OK
 4. Interactivity with Bootstrap JS
 5. Mini Project

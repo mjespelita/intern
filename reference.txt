@@ -29,3 +29,24 @@ warning - yellow
 info - light blue
 primary - blue
 secondary - gray
+
+------------------------------------
+
+Buttons
+
+btn btn-success or any default colors
+
+------------------------------------
+
+Card
+
+card
+card-body
+
+------------------------------------
+
+Form
+
+form
+form-group
+form-control
