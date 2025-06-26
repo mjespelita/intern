@@ -17,7 +17,8 @@
 <body>
     <!-- Navigation -->
     <div class="container">
-        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid position-sticky">
+        <nav class=" navbar navbar-expand-lg ">
             <div class="container-fluid">
                 <a class="navbar-brand col-lg-2" href="#">Frenzo <span style="color: rgb(168, 50, 168);;">.</span></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -104,7 +105,7 @@
                     <div class="card-body ">
                         <div class="row">
                             <div class="col-lg-2 col-md-2 col-sm-3">
-                                <i class="fa fa-gear"></i>
+                                <i style="font-size: 35px; padding: 46px 0 0 10px; " class="fa fa-gear"></i>
                             </div>
                             <div class="col-lg-10 col-md-10 col-sm-8">
                                 <h2>
@@ -123,7 +124,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-2 col-md-2 col-sm-12">
-                                <i class="bi bi-window"></i>
+                                <i style="font-size: 35px; padding: 25px 0 0 10px;" class="bi bi-window"></i>
                             </div>
                             <div class="col-lg-10 col-md-10 col-sm-12">
                                  <h2>
@@ -142,7 +143,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-2 col-md-2 col-sm-12">
-                                <i class="bi bi-headset"></i>
+                                <i style="font-size: 35px; padding: 25px 0 0 10px;" class="bi bi-headset"></i>
                             </div>
                             <div class="col-lg-10 col-md-10 col-sm-12">
                                  <h2>
@@ -171,26 +172,34 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
-                <i class="bi bi-check-circle">
-                    <span>laboris nisi ut aliquip ex ea commodo consequat.</span> 
-                </i>
+                <i class="bi bi-check-circle"></i>
+                    <span>
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </span> 
                 <br>
-                <i class="bi bi-check-circle">
-                    <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span>
-                </i>
+                <i class="bi bi-check-circle"></i>
+                    <span>
+                        Duis aute irure dolor in reprehenderit in voluptate velit.
+                    </span>
+             
                 <br>
-                <i class="bi bi-check-circle">
-                    <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span>
-                </i>
+                <i class="bi bi-check-circle"></i>
+                    <span>
+                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.
+                    </span>
                 <br>
                 <a href="#">Read More</a> <i class="bi bi-arrow-right"></i>
             </div>
 
-            <div class="col-lg-6  col-md-12">
+            <div class="col-lg-6 ">
                 <div class="row" >
-                    <img class="col-lg-6" src="photos/about-portrait-1.webp">
-                    <img class="col-lg-3"  src="photos/about-8.webp">
-                    <img class="col-lg-3"  src="photos/about-12.webp">
+                    <div class="col-lg-6 col-md-12">
+                        <img style="width: 100%; border-radius: 3%;" src="photos/about-portrait-1.webp">
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <img style="width: 100%; border-radius: 3%;" class="mt-3" src="photos/about-8.webp">
+                        <img style="width: 100%; border-radius: 3%;" class="mt-3" src="photos/about-12.webp">
+                    </div>
                 </div>
             </div>
         </div>
@@ -205,36 +214,148 @@
                 Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
             </p>
         </div>
-        <div class="container w-50 py-5">
+    </div>
+
+    
+    <div class="container col-lg-8" style="padding: 40px 0;">
             <div class="card">
                 <div class="card-body">
-                    <h3>Project Planning</h3>
-                    <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
-                </div>
-            </div>
-            <br>
-            <div class="card">
-                <div class="card-body">
-                    <h3>Development Phase</h3>
-                    <p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
-                </div>
-            </div>
-            <br>
-            <div class="card">
-                <div class="card-body">
-                    <h3>Testing & QA</h3>
-                    <p>Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero.</p>
-                </div>
-            </div>
-            <br>
-            <div class="card">
-                <div class="card-body">
-                    <div class="row ">
-                        <h3>Launch & Support</h3>
-                        <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt.</p>
+                    <div class="row">
+                        <div class="col-lg-1">
+                            <i class="bi bi-pencil-square"></i>
+                        </div>
+                        <div class="col-lg-11">
+                            <h3>Project Planning</h3>
+                            <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+                        </div>
                     </div>
                 </div>
-            </div> 
+            </div>
+
+            <br>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-1">
+                            <i class="bi bi-gear"></i>
+                        </div>
+                        <div class="col-lg-11">
+                            <h3>Development Phase</h3>
+                            <p>Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-1">
+                            <i class="bi bi-search"></i>
+                        </div>
+                        <div class="col-lg-11">
+                            <h3>Testing & QA</h3>
+                            <p>Phasellus ullamcorper ipsum rutrum nunc. Nunc nonummy metus. Vestibulum volutpat pretium libero.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-1">
+                            <i class="bi bi-rocket-takeoff"></i>
+                        </div>
+                        <div class="col-lg-11">
+                            <h3>Launch & Support</h3>
+                            <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <div class="container">
+        <div>
+            <h2>SERVICES</h2>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>    
+        </div>
+        <div class="row">
+            <div>
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="col-lg-2">
+                <h3>Custom Web Development</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <a href="#">
+                    <span>Learn More</span>
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="col-lg-2">
+                <h3>Custom Web Development</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="col-lg-2">
+                <h3>Custom Web Development</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="col-lg-2">
+                <h3>Custom Web Development</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div >
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="col-lg-2">
+                <h3>Custom Web Development</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="col-lg-2">
+                <h3>Custom Web Development</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="col-lg-2">
+                <h3>Custom Web Development</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <i class="bi bi-code-slash"></i>
+            </div>
+            <div class="col-lg-2">
+                <h3>Custom Web Development</h3>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Curabitur non nulla sit amet nisl tempus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
         </div>
     </div>
 
